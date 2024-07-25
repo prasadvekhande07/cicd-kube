@@ -21,6 +21,6 @@ spec:
   - port: 80
     targetPort: vproapp-port
     protocol: TCP
-    nodePort: 32090  # You can specify any valid port within the range 30000-32767
+    nodePort: 32070  # You can specify any valid port within the range 30000-32767
   selector:
     app: vproapp
